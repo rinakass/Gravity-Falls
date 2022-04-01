@@ -27,7 +27,7 @@ body {
                 flex-direction: column;
                 justify-items: center;
 
-                .lol {
+                img {
                     width: 300px;
                     height: 100%;
                     border-radius: 10px;
@@ -42,15 +42,7 @@ body {
                 justify-items: center;
                 width: 100%;
 
-                .firstlink {
-                    display: flex;
-                    margin: 10px;
-                    background: linear-gradient(#D83F87, #d95f98);
-                    height: 100%;
-                    width: 45%;
-                }
-
-                .secondlink {
+                a {
                     display: flex;
                     margin: 10px;
                     background: linear-gradient(#D83F87, #d95f98);
@@ -91,20 +83,11 @@ body {
             height: 100%;
             margin-bottom: 17px;
 
-            .topbox {
-                @include display(auto, 100%);
-                margin: 10px;
-                background: linear-gradient(#53318d, #5c318d);
-                border-radius: 15px;
-            }
-
-            .bottombox {
+            div {
                 @include display(auto, 100%);
                 margin: 10px;
                 background: linear-gradient(#53318d, #5c318d);
                 border-radius: 15px;
             }
         }
-
-
 }
