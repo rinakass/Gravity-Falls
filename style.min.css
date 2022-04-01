@@ -1,0 +1,149 @@
+html,
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #2A1B3D;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+}
+
+.main .firstbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #44318D;
+}
+
+.main .firstbox .photo {
+  background-color: #44318D;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+}
+
+.main .firstbox .photo .lol {
+  width: 300px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.main .firstbox .social {
+  background-color: #44318D;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  width: 100%;
+}
+
+.main .firstbox .social .firstlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#D83F87), to(#d95f98));
+  background: linear-gradient(#D83F87, #d95f98);
+  height: 100%;
+  width: 45%;
+}
+
+.main .firstbox .social .secondlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#D83F87), to(#d95f98));
+  background: linear-gradient(#D83F87, #d95f98);
+  height: 100%;
+  width: 45%;
+}
+
+.main .firstbox .social .button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5f318d), to(#693085));
+  background: linear-gradient(#5f318d, #693085);
+  color: #ffbddc;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  font-family: cursive;
+}
+
+@media (max-width: 620px) {
+  .main .firstbox .social .button {
+    font-size: 18px;
+  }
+}
+
+.main .secondbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #44318D;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  margin-bottom: 17px;
+}
+
+.main .secondbox .topbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 100%;
+  margin: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#53318d), to(#5c318d));
+  background: linear-gradient(#53318d, #5c318d);
+  border-radius: 15px;
+}
+
+.main .secondbox .bottombox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 100%;
+  margin: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#53318d), to(#5c318d));
+  background: linear-gradient(#53318d, #5c318d);
+  border-radius: 15px;
+}

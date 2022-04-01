@@ -1,0 +1,110 @@
+@mixin display($width, $height) {
+    display: flex;
+    width: $width;
+    height: $height;
+}
+
+html,
+body {
+    @include display(100%, 100%);
+    background-color: #2A1B3D;
+}
+
+.main {
+    @include display(100%, 100%);
+    flex-direction: column;
+    margin: 10px;
+
+    
+        .firstbox {
+            display: flex;
+            background-color: #44318D;
+
+            .photo {
+                background-color: #44318D;
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+
+                .lol {
+                    width: 300px;
+                    height: 100%;
+                    border-radius: 10px;
+                }
+            }
+
+            .social {
+                background-color: #44318D;
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+                width: 100%;
+
+                .firstlink {
+                    display: flex;
+                    margin: 10px;
+                    background: linear-gradient(#D83F87, #d95f98);
+                    height: 100%;
+                    width: 45%;
+                }
+
+                .secondlink {
+                    display: flex;
+                    margin: 10px;
+                    background: linear-gradient(#D83F87, #d95f98);
+                    height: 100%;
+                    width: 45%;
+                }
+
+                .button {
+                    background: linear-gradient( #5f318d, #693085);
+                    color: #ffbddc;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 24px;
+                    cursor: pointer;
+                    width: 100%;
+                    height: 100%;
+                    margin: 7px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-items: center;
+                    font-family: cursive;
+
+                }
+
+                @media (max-width: 620px) {
+                    .button {
+                        font-size: 18px;
+                    } 
+                }
+            }
+
+        }
+
+        .secondbox {
+            display: flex;
+            background-color: #44318D;
+            flex-direction: column;
+            height: 100%;
+            margin-bottom: 17px;
+
+            .topbox {
+                @include display(auto, 100%);
+                margin: 10px;
+                background: linear-gradient(#53318d, #5c318d);
+                border-radius: 15px;
+            }
+
+            .bottombox {
+                @include display(auto, 100%);
+                margin: 10px;
+                background: linear-gradient(#53318d, #5c318d);
+                border-radius: 15px;
+            }
+        }
+
+
+}
